@@ -87,3 +87,22 @@
     width: 30px;
     height: 30px;
 }
+/*** BARRA LATERAL ***/
+.nav-lateral {
+    
+    width: 80%;
+    background-color: aqua;
+    
+    max-height: 100%;
+    color: white;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    /*** PARA ARRIBA ***/
+    position: fixed;
+    overflow: auto;
+    z-index: 9;
+    top: 12vh;
+    scrollbar-color: none;
+}
