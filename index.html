@@ -6,54 +6,61 @@
     <title>Mateo Pisano - mateopisano___</title>
     <!--LINK CSS-->
     <link rel="stylesheet" href="css/style.css" />
+
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <header>
       <div class="barranav-iconos">
-        <div class="toggle">
+        <div class="menu-conteiner" id="btnMenu">
           <img
-            
             src="images/134216_menu_lines_hamburger_icon.svg"
-            alt="toggle"
+            alt="menu hamburguesa"
+            class="btn-menu"
+            id="btnMenu"
           />
         </div>
         <div class="logo">
-            <a href="index.html">
-          <img  src="images/vanilla_ice.svg" alt="logo" />
-        </a>
+          <a href="index.html">
+            <img src="images/vanilla_ice.svg" alt="logo" />
+          </a>
         </div>
         <div class="lado-conteiner">
-            <div class="lupa">
-
-                <img
-                  
-                  src="images/8201359_search_zoom_loupe_detective_icon.svg"
-                  alt="search"
-                />
-              </div>
-              <div class="instagram">
-                <a target="_blank" href="https://www.instagram.com/mateopisano___/?hl=es-la">
-                  <img
-                    
-                    src="images/5335781_camera_instagram_social media_instagram logo_icon.svg"
-                    alt="instagram"
-                  />
-                </a>
-                </div>
+          <div class="instagram">
+            <a
+              target="_blank"
+              href="https://www.instagram.com/mateopisano___/?hl=es-la"
+            >
+              <img
+                src="images/5335781_camera_instagram_social media_instagram logo_icon.svg"
+                alt="instagram"
+              />
+            </a>
+          </div>
         </div>
       </div>
-
-      <nav class="barranav">
-        <ul>
-          <li><a href="#">HOME</a></li>
-          <li><a href="#">PORTFOLIO</a></li>
-          <li><a href="#">INFO</a></li>
-          <li><a href="#">CONTACTO</a></li>
-        </ul>
-      </nav>
+      <div class="barranav_container">
+        <nav class="barranav" id="nav">
+          <ul class="navitems" id="items">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">PORTFOLIO</a></li>
+            <li><a href="#">INFO</a></li>
+            <li><a href="#">CONTACTO</a></li>
+          </ul>
+        </nav>
+        
+      </div>
     </header>
     <main></main>
     <footer></footer>
+    
     <script src="JS/app.js"></script>
   </body>
 </html>
