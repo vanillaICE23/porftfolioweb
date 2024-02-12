@@ -15,8 +15,8 @@ boton.addEventListener('click', () => {
             <ul class="lista">
                 <li><a href="">Home</a></li>
                 <li><a href="">Mirá lo que hice...</a></li>
-                <li><a href="">WTF IS vanillaice xD</a></li>
-                <li><a href="">Hablame, si queres un trabajo..</a></li>
+                <li><a href="">Quien soy</a></li>
+                <li><a href="">Contacto.</a></li>
             </ul>
         </div>    
     </nav>

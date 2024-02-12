@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Quantico&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Quantico&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
@@ -12,10 +15,18 @@
     --color-marron: rgb(27, 16, 14);
     --color-violeta: rgb(141, 86, 157);
     --color-amarillo: rgb(228, 177, 3) ;
+    --color-negro: rgb(0,0,0);
     --font-quantico: 'Quantico', sans-serif;
+    --font-opensans:  'Open Sans', sans-serif;
     
 }
-
+body {
+    background-color: var(--color-negro);
+}
+main{
+    display: flex;
+    justify-content: center;
+}
 /* barra de navegacion estilo */
 .barranav {
     background-color: var(--color-marron);
@@ -137,4 +148,125 @@
     text-decoration: none;
     color: var(--color-amarillo);
 }
+/** MAIN PAGINA HOME **/
+/** CONTACTO TEXTO **/
+.informacion-container{
 
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.informacion_container-imagen img {
+    display: flex;
+    width: 400px;
+    height: 200px;
+    
+}
+.informacion_container-texto {
+    color: var(--color-gris);
+}
+/** CONTACTO TEXTO **/
+.contacto-container{
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacto_container-imagen img {
+    display: flex;
+    width: 400px;
+    height: 200px;
+    
+}
+.contacto_container-texto {
+    color: var(--color-gris);
+}
+/*** PORTFOLIO TEXTO ***/
+.portfolio-container{
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolio_container-imagen img {
+    display: flex;
+    width: 400px;
+    height: 200px;
+    
+}
+.portfolio_container-texto {
+    color: var(--color-gris);
+}  
+/*** CONTACTO TEXTO ***/
+.contacto-container{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+.contacto_container-imagen img {
+    display: flex;
+    width: 400px;
+    height: 200px;
+    
+}
+.contacto_container-texto {
+    color: var(--color-gris);
+}    
+.enlaces-container{
+    width: 100vh ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+/******** PORTFOLIO PAGE *************/
+.none{
+    color: var(--color-amarillo);
+}
+
+/******* INFO PAGE **********/
+.imagen-central {
+    margin-top: 100px;
+}
+.imagen-central img{
+    width: 200px;
+    height: 200px;
+}
+
+/** PRIMERA PARTE INFO **/
+.info-cuerpo{
+    width: 800px;
+    height: 100vh;
+    background-color: blue;
+    margin-top: 75px;
+}
+.info-cuerpo h2 {
+    color: var(--color-amarillo);
+    font-family: var(--font-quantico);
+    font-weight: 700;
+    letter-spacing: .1em;
+    line-height: 1.4;
+    font-size: 1.5em;
+}
+.info-cuerpo p{
+    color: var(--color-gris);
+    font-family: var(--font-opensans);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25.6px;
+    
+}
+.info_cuerpo-imagen {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
